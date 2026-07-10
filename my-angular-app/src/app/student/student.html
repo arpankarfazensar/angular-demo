@@ -1,0 +1,92 @@
+
+<!-- <h2>Introduction to Angular Components</h2>
+
+<p>Name: Arpan Karfa</p>
+<p>Course: Angular</p>
+<p>Duration: 30 Days</p> -->
+
+
+
+<!-- <h2>Interpolation in Angular</h2>
+
+<p>Name: {{name}}</p>
+<p>Course: {{course}}</p>
+<p>Duration: {{duration}} Days</p
+
+<p>Next Year Duration: {{duration + 10}}</p> -->
+
+
+
+<!-- <h2>Property Binding Example</h2>
+
+<img [src]="imageUrl" alt="Angular Logo" width="150">
+
+<br><br>
+
+<input type="text" [placeholder]="placeholderText">
+
+<br><br>
+
+<button [disabled]="isDisabled">
+  Submit
+</button> -->
+
+
+
+<!-- <h2>Event Binding Example</h2>
+
+<button (click)="showMessage()">
+  Click Me
+</button>
+
+<p>{{ message }}</p>
+
+<p>Button Click Count: {{ clickCount }}</p>
+
+<hr>
+
+<input
+  type="text"
+  placeholder="Type something..."
+  (keyup)="onKeyPress($event)"
+>
+
+<p>{{ message }}</p> -->
+
+
+
+
+<!-- <h2>Two-Way Binding Example</h2>
+
+<label>Student Name:</label>
+
+<input
+  type="text"
+  [(ngModel)]="name"
+  placeholder="Enter your name">
+
+<p>You entered: {{ name }}</p> -->
+
+
+
+<!-- <h2>ngModelChange vs Change Event</h2>
+
+<input
+  type="text"
+  [(ngModel)]="name"
+  (ngModelChange)="onNgModelChange($event)"
+  (change)="onChange($event)"
+  placeholder="Enter text">
+
+<p><strong>Current Value:</strong> {{ name }}</p>
+
+<p><strong>ngModelChange Value:</strong> {{ ngModelValue }}</p>
+
+<p><strong>change Event Value:</strong> {{ changeValue }}</p> -->
+
+
+<h2>Parent Component</h2>
+
+<p>Name in Parent: {{ name }}</p>
+
+<app-child [studentName]="name"></app-child>
