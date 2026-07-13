@@ -1,0 +1,9 @@
+<h2>Parent Component</h2>
+
+<app-child
+  [name]="studentName"
+  [id]="studentId"
+  (studentSelected)="onStudentSelected($event)">
+</app-child>
+
+<p>{{ message }}</p>
